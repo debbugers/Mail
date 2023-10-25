@@ -5,9 +5,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url(bg.jpg); /* Replace with your background image */
-            background-size: cover;
-            background-position: center;
+            background-color: #060606ab;
             margin: 0;
             padding: 0;
             height: 100vh;
@@ -18,7 +16,8 @@
             margin-top: 15%;
             width: 40%;
             padding: 20px;
-            background-color: #fff;
+            background-color: #060606ab;
+            box-shadow: 5px 6px 5px white;
         }
 
         .txtbox {
@@ -37,10 +36,12 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            box-shadow: 2px 2px 2px #cbe5cb;
         }
 
         input[type="submit"]:hover {
             background-color: #45a049;
+            
         }
 
         @media screen and (max-width: 600px) {
